@@ -60,7 +60,7 @@ html, body {
   margin: 0;
   /* background: rgb(0, 0, 0); */
   text-align: center;
-    background-image: url("images/GRAY ROCKS.jpg");
+    background-image: url("red\ back.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -71,10 +71,11 @@ html, body {
     width: 1200px;
 	padding: 2%;
     margin: 100px auto;
- 	background: rgb(100, 0, 255); /*this uses opacity of 75% for the background color*/
+ 	/* background: rgb(0, 0, 0, .25); */
 	text-align: center;
-	/* border: 4px dashed white; */
-}
+	border-radius: 150px 150px 150px 150px ;
+	border: 4px solid white;
+}	
 
 #logo {
     margin-bottom: -50px;
@@ -86,7 +87,7 @@ html, body {
 h1 {
 	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-size: 3.75em;
-    margin: 10px auto 100px auto;
+    margin: 10px auto 50px auto;
     color: #fff;
 	font-family: "loos-extended", sans-serif;
 	font-weight: 700;
@@ -94,15 +95,15 @@ h1 {
 }
 
 h2 {
-	 /* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
+	/* FONT-FAMILY GOES HERE CHOOSE FROM TYPEKIT OR GOOGLE FONTS */
 	font-size: 1.5em;
     line-height: 1.4;
     color: #fff;
     padding: 0px 0px;
-    margin: -25px auto 25px auto;
+    margin: -25px auto 10px auto;
 	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-style: normal;
-	font-weight: 100;
+	font-weight: bold;
 }
 
 p {
@@ -119,16 +120,18 @@ nav{
 	font-family: "neue-haas-grotesk-display", sans-serif;
 	font-style: normal;
 	font-weight: 100;	
-	font-size: 1.2em;
+	font-size: 1.5em;
+	
 	width: 400px; /* This is the width of the nav element */
 	margin: 0 auto; /* This centers the entire nav element inside  
 	the center div */
-	/* border: dashed turquoise; */
+	/* border: dashed rgb(255, 255, 255); */
 	border-width: 3px 0; /* This puts a 3 pixel border on top and bottom of the    
 	nav element, the zero eliminates the left and right sides of the border */
 	text-align: center;
-	margin-top: 2em; /* This adds a bit of space above the nav element */
+	margin-top: 102px; /* This adds a bit of space above the nav element */
 	}
+
    nav li{
    display: inline; /* This allows 
    the block level elements to 
@@ -137,9 +140,10 @@ nav{
 	
    nav a{
    display: inline-block;
-   padding: 10px; /* This adds space 
+   padding: 12px; /* This adds space 
    around each of the links */
    }
+
    a{
    color: #ffffff;
    text-decoration: none; /* This 
@@ -148,9 +152,10 @@ nav{
    }
 	
    a:hover{
-   color: black;
-   background: pink; /* This is the 
+   color: rgb(255, 255, 255);
+   background: rgb(255, 255, 255, .5); /* This is the 
    pink hover effect -- you’ll want to  
    change this! */
+   border-radius: 150px 150px 150px 150px ;
    }
    
